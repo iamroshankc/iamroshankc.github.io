@@ -1,0 +1,6 @@
+<svg width="140" height="140" viewBox="0 0 140 140" xmlns="http://www.w3.org/2000/svg">
+  <rect width="140" height="140" fill="#2A2D31"/>
+  <circle cx="70" cy="56" r="26" fill="#3A3D40"/>
+  <path d="M20 130 C20 96 45 82 70 82 C95 82 120 96 120 130 Z" fill="#3A3D40"/>
+  <text x="70" y="128" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="9" fill="#6E7176">replace me</text>
+</svg>
