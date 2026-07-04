@@ -179,6 +179,67 @@ a:focus-visible, button:focus-visible {
   color: var(--navy);
 }
 
+/* ---------- Stat strip (home hero) ---------- */
+
+.stat-strip {
+  display: flex;
+  gap: 0;
+  margin-top: 40px;
+  padding-top: 28px;
+  border-top: 1px solid rgba(255,255,255,0.14);
+  flex-wrap: wrap;
+}
+
+.stat-chip {
+  padding: 0 32px 0 0;
+  margin-right: 32px;
+  border-right: 1px solid rgba(255,255,255,0.14);
+}
+
+.stat-chip:last-child { border-right: none; }
+
+.stat-chip .num {
+  display: block;
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 1.15rem;
+  color: #fff;
+  margin-bottom: 4px;
+}
+
+.stat-chip .label {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  color: var(--on-navy-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+/* ---------- Publication teaser (home featured-research section) ---------- */
+
+.pub-teaser .journal-meta {
+  font-family: var(--mono);
+  font-size: 0.76rem;
+  color: var(--ink-faint);
+  margin-bottom: 10px;
+}
+
+.pub-teaser h3 {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 1.15rem;
+  margin: 0 0 12px;
+  line-height: 1.3;
+}
+
+.pub-teaser h3 a { color: var(--ink); }
+.pub-teaser h3 a:hover { color: var(--gold); }
+
+.pub-teaser p {
+  color: var(--ink-dim);
+  margin: 0 0 18px;
+}
+
 /* ---------- Page band (non-home pages) ---------- */
 
 .page-band {
